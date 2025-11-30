@@ -131,7 +131,7 @@ Continued use of the extension after changes constitutes acceptance of the updat
 
 CSS Overrider is open source. You can review the code to verify our privacy claims:
 
-- GitHub Repository: [Your Repository URL]
+- GitHub Repository: https://github.com/rahmathm1/css-overrider-extension/
 - All code is transparent and auditable
 - Community contributions are welcome
 
@@ -139,8 +139,8 @@ CSS Overrider is open source. You can review the code to verify our privacy clai
 
 If you have questions about this Privacy Policy or the extension's privacy practices, please contact us:
 
-- **Email:** [Your Email Address]
-- **GitHub Issues:** [Your Repository URL]/issues
+- **Email:** contact1869@gmail.com
+- **GitHub Issues:** https://github.com/rahmathm1/css-overrider-extension/issues
 - **Chrome Web Store:** Leave a review or question
 
 ## Legal Compliance
@@ -165,7 +165,3 @@ CSS Overrider is a privacy-first extension. We don't collect, store, or transmit
 By installing and using CSS Overrider, you acknowledge that you have read and understood this Privacy Policy.
 
 ---
-
-**CSS Overrider Team**
-
-*Building tools that respect your privacy.*
