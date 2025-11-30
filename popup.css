@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  width: 450px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a73e8;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Courier New', monospace;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+small {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #777;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1557b0;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  background-color: #e8eaed;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #d2d4d7;
+}
+
+.btn-secondary:active {
+  transform: scale(0.98);
+}
+
+.message {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  display: block;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  display: block;
+}
+
+.saved-rules {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+#rulesList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rule-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  position: relative;
+}
+
+.rule-url {
+  font-weight: 500;
+  color: #1a73e8;
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+.rule-css {
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #666;
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 3px;
+  max-height: 100px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.rule-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.rule-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.rule-btn.edit {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.rule-btn.edit:hover {
+  background-color: #1557b0;
+}
+
+.rule-btn.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.rule-btn.delete:hover {
+  background-color: #c82333;
+}
+
+.no-rules {
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  padding: 20px;
+}
